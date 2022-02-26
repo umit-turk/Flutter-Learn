@@ -1,0 +1,1 @@
+//işini yapan bir widget türü
