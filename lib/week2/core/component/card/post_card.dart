@@ -38,7 +38,6 @@ class _PostCardState extends State<PostCard> {
 
   @override
   State<StatefulWidget> createState() {
-    // TODO: implement createState
     throw UnimplementedError();
   }
 }
