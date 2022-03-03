@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterlearn/week3/core/theme/light_theme.dart';
 
 import 'week3/food_card/food_card.dart';
 
@@ -9,6 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Material App',
+      theme: LightTheme.instance.data,
       home: FoodCard(),
     );
   }
